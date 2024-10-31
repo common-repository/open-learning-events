@@ -1,0 +1,76 @@
+/* Setting page styles */
+
+#custom-type-list { margin: 20px 0; }
+#custom-type-list li {
+	border: 1px solid #ddd;
+	-moz-border-radium: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background-color: #f7f7f7;
+	max-width: 400px;
+	padding: 10px;
+}
+
+/* Field styles */
+.meta-row {
+	border-bottom: 1px solid #e9e9e9;
+	padding: 20px;
+}
+.meta-th {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.meta-tr {
+	display: inline-block;
+	float: right;
+	width: 100%;
+}
+
+.meta {
+	margin-top: 20px;
+}
+
+input[type=text] {
+	width: 100%;
+}
+
+.event-textarea {
+	height: 100px;
+	width: 100%;
+}
+
+.venue-textarea {
+	height: 100px;
+	width: 100%;
+}
+
+.time-hour {
+	float: left;
+}
+
+.time-minute {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.event-row-content.datepicker {
+	width: 100%;
+}
+
+.add-venue {
+	display: inline-block;
+	padding-top: 10px;
+}
+
+#edit-slug-box {
+ 	min-height: 0px;
+    margin-top: 0px;
+}
+
+select#event-venue {
+    width: 100%;
+}
